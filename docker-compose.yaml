@@ -1,7 +1,7 @@
 version: '3'
 services:
   genenotebook:
-    image: genenotebook/genenotebook:v0.1.14
+    image: genenotebook/genenotebook:v0.1.16
     deploy:
       restart_policy:
         condition: on-failure
